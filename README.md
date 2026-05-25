@@ -10,7 +10,7 @@ class Cyente(MLEngineer):
     @staticmethod
     def contact() -> tuple:
         homepage  = "https://ontheway"
-        x   = "https://x.com/czy_yente?s=09"
+        x         = "https://x.com/czy_yente?s=09"
         email     = "cuizeyu15 [at] gmail.com"
         return homepage, x, email
 
@@ -18,15 +18,15 @@ class Cyente(MLEngineer):
     @staticmethod
     def research() -> tuple:
         interesting = ['Coding Agent', 'Large Language Models']
-        scholar = "https://scholar.google.com/citations?user=QVxn-CkAAAAJ&hl=zh-CN"
-        degree‌ = "Ph.D from Institute of Automation, Chinese Academy of Science"
+        scholar     = "https://scholar.google.com/citations?user=QVxn-CkAAAAJ&hl=zh-CN"
+        degree‌      = "Ph.D from Institute of Automation, Chinese Academy of Science"
         return interesting, scholar, degree‌
 
     @staticmethod
     def project() -> list:
-        Qwen = "https://github.com/QwenLM/Qwen"
-        QwenCoder = "https://github.com/QwenLM/Qwen3-Coder"
-        project_lst = [Qwen, QwenCoder]
+        Qwen         = "https://github.com/QwenLM/Qwen"
+        QwenCoder    = "https://github.com/QwenLM/Qwen3-Coder"
+        project_lst  = [Qwen, QwenCoder]
         return project_lst
 ```
 
